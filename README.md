@@ -20,4 +20,8 @@ See instructions for creating your final portfolio [here](https://docs.google.co
 
 ### Growth as a Team Member
 
-\"This is a line from RStudio\".
+"This is a line from RStudio".
+
+```{r}
+
+```
