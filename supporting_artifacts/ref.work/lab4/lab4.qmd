@@ -18,7 +18,7 @@ library(tidyverse)
 library(dplyr)
 library(here)
 library(ggplot2)
-avocados <- read.csv(
+avocados <- read_csv(
   here::here("supporting_artifacts","ref.work",
              "lab4", "avocado.csv")
   )
