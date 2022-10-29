@@ -8,12 +8,10 @@ theme: mint
 ---
 
 ```{r setup, include=FALSE}
-#|include: false
 library(tidyverse)
 ```
 
 ```{r load.data, include=FALSE}
-#|include: false
 hiphop <- read_csv(here::here("supporting_artifacts", "ref.work",
                               "lab3", "hiphop.csv"))
 
@@ -57,7 +55,7 @@ hiphop_clean |>
 
 ## 6. white and non-white factor.
 
-```{r}
+```{r white_variable}
 hiphop_w <- hiphop_clean |> 
   mutate(
     white = if_else(ethnic == "white", "white", "not white")
@@ -69,7 +67,7 @@ hiphop_w <- hiphop_clean |>
 
 To investigate the demographics of the participants I created a summary for all of the data relevant to demographics (sex, age, and ethnic). I also counted the total number of unique combinations of sex, age, and ethnicity by using the n(row) function to get 47. I did not use the count function because I did not want the mutate argument build in to the code.
 
-```{r}
+```{r demo}
 demo <- hiphop_clean |> 
   distinct(subj, .keep_all = TRUE) |> 
   select(sex, age, ethnic)|> 
@@ -110,9 +108,8 @@ ggplot(data = hiphop_w) +
 
 ### Familiar words
 
-```{r familiar}
-#|execute:
-#|include: false
+```{r familiar, include=FALSE}
+
 familiar <- hiphop_clean |> 
   filter(age < 20) |> 
   select(word,familiarity) |> 
@@ -151,6 +148,7 @@ familiar <- hiphop_w |>
 familiar |> 
    slice_max(mean_fam)|> 
   print()
+  
 familiar |> 
    slice_min(mean_fam)|> 
   print()
@@ -164,7 +162,7 @@ familiar |>
 
 ## Justin Bieber?
 
-```{r}
+```{r justin}
 hiphop_clean |> 
   distinct(subj, .keep_all = TRUE) |> 
   filter(age %in% 17:23,
@@ -175,3 +173,5 @@ hiphop_clean |>
   select(subj)
 
 ```
+
+If Justin was in this study he would be participant #17.

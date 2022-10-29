@@ -1,6 +1,6 @@
-####  Hi Dr. Theobold, 
+#### Hi Dr. Theobold,
 
-#### I placed my week 6 reflection in the essays folder and all the supporting artifacts are in the sub-folders within my supporting_artifacts folder.          Template for STAT 331 Portfolio
+#### I placed my week 6 reflection in the essays folder and all the supporting artifacts are in the sub-folders within my supporting_artifacts folder. Template for STAT 331 Portfolio
 
 See instructions for creating your final portfolio [here](https://docs.google.com/document/d/11iHZbvXWEjcpJpBQ_O5wpYlVkPfmcyQFgBFqKMlVjg4/edit?usp=sharing). This repository provides you with a template for how your portfolio repository is expected to be organized.
 

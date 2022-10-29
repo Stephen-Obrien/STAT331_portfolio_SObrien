@@ -12,29 +12,31 @@ execute:
 
 # 2.
 
-```{r set_up}
-#| output: false
+```{r set_up, include=FALSE}
 library(tidyverse)
 library(dplyr)
 library(here)
 library(ggplot2)
+
 avocados <- read_csv(
   here::here("supporting_artifacts","ref.work",
-             "lab4", "avocado.csv")
-  )
+             "lab4", "avocado.csv"))
 ```
 
 -   The dataset contains sales data for hass avocados sold from 2018 based on bar codes scanned in stores. The dataset contains data from 2013 - 2017.
 
-```{r data_clean}
-avocados <- avocados |> 
-  rename(
-    "small" = "X4046", "large" = "X4225", "xlarge" = "X4770"
-    ) 
+```{r data_clean, include=FALSE}
 
 avocado_clean <- avocados |> 
-  separate(Date, c("year", "month")) |> 
-  mutate(year = as.numeric(year))
+  rename(
+    "small" = "4046", "large" = "4225", "xlarge" = "4770",
+    "Total.Volume" = "Total Volume"
+    ) 
+
+avocado_clean <- avocado_clean |> 
+  separate(Date, c("year", "month", "day")) |> 
+  mutate(year = as.numeric(year),
+         month = as.numeric(year))
 ```
 
 ## 3.
@@ -57,6 +59,7 @@ semi_join(avocado_clean, regions,
 -   the south central sold the most avocados
 
 ```{r monthly_sales}
+
 avocado_clean |> 
   select(month, Total.Volume) |> 
   group_by(month) |> 
