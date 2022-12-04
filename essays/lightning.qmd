@@ -1,0 +1,29 @@
+---
+title: "Lightning round"
+format: docx
+code-fold: true
+smooth-scroll: true
+editor: visual
+---
+
+-   **Lightning round**: Answer each of the following questions with **one sentence** including a brief explanation.
+
+    -   Finish the sentence with another student\'s name: \"If \[Student\] doesn\'t earn an A, then nobody should, because...\" Explain your choice and your reasoning.
+
+        -   Harshini
+
+    -   What was the most difficult part of the class for you? List a general topic, a specific problem, a kind of work we did, etc. and explain why.
+
+        -   the quantity of the assignments especially the number of preview activities due before the first day of class.
+
+    -   What was the easiest part of the class for you? Explain why.
+
+        -   The math was all coneptually easy because I had seen everything before
+
+    -   What part of the class surprised or interested you the most? Explain why.
+
+        -   I was the most interested by writing functions because it is fun to create something that is my own and I saw the most potential in it.
+
+    -   Give one piece of advice to a student just beginning a quarter of STAT 331 that will help them be successful in learning.
+
+        -   pay attention at the beginning to all of the yaml stuff and setting up your documents.

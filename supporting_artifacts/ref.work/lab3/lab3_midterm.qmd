@@ -4,6 +4,8 @@ format: html
 editor: visual
 code-fold: true
 smooth-scroll: true
+execute:
+  warning: false
 theme: mint
 ---
 
@@ -41,8 +43,6 @@ hiphop_clean <- hiphop |>
   mutate(
     across(where(is.character), as.factor)
     ) 
-  
-  
 ```
 
 ## 5. how many unique AAE words are there.
@@ -116,13 +116,10 @@ familiar <- hiphop_clean |>
   group_by(word) |> 
   summarise(mean_fam = mean(familiarity))
 familiar |> 
-  slice_max(mean_fam)|> 
-  print()
+  slice_max(mean_fam)
+
 familiar |> 
-  slice_min(mean_fam)|> 
-  print()
-
-
+  slice_min(mean_fam)
 
 familiar <- hiphop_w |> 
  filter(white == "not white",
@@ -130,12 +127,12 @@ familiar <- hiphop_w |>
  select(word, familiarity) |> 
  group_by(word) |> 
  summarise(mean_fam = mean(familiarity))
+
 familiar |> 
  slice_max(mean_fam) |> 
   print()
 familiar |> 
- slice_min(mean_fam)|> 
-  print()
+ slice_min(mean_fam)
  
 familiar <- hiphop_w |> 
  filter(white == "white",
@@ -146,12 +143,10 @@ familiar <- hiphop_w |>
    summarise(mean_fam = mean(familiarity))
 
 familiar |> 
-   slice_max(mean_fam)|> 
-  print()
+   slice_max(mean_fam)
   
 familiar |> 
-   slice_min(mean_fam)|> 
-  print()
+   slice_min(mean_fam)
 ```
 
 -   People under 20 were most familiar with "off the hook" and least familiar with "catch the vapors".

@@ -1,6 +1,8 @@
 ---
 title: "lab5"
-format: html
+format: 
+  html:
+    self-contained: true
 editor: visual
 code-fold: true
 execute: 
@@ -57,7 +59,7 @@ surveys_clean |>
 
 ```
 
-## Captures of the Week
+## 3.Captures of the Week
 
 ```{r daily_comparison}
 day_levels <- 
@@ -82,6 +84,8 @@ surveys_clean |>
   labs(y = "Number of Rodents Captured", x = NULL)
   
 ```
+
+## 2. weekend
 
 ```{r weekend}
 surveys_clean <- surveys_clean |> 
