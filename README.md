@@ -1,8 +1,4 @@
-#### Hi Dr. Theobold,
-
-#### I placed my week 6 reflection in the essays folder and all the supporting artifacts are in the sub-folders within my supporting_artifacts folder. Template for STAT 331 Portfolio
-
-See instructions for creating your final portfolio [here](https://docs.google.com/document/d/11iHZbvXWEjcpJpBQ_O5wpYlVkPfmcyQFgBFqKMlVjg4/edit?usp=sharing). This repository provides you with a template for how your portfolio repository is expected to be organized.
+#### 
 
 # Table of Contents
 
@@ -11,6 +7,90 @@ See instructions for creating your final portfolio [here](https://docs.google.co
 ## Essay Responses
 
 ## Supporting Artifacts
+
+-   continued learning
+
+    -   4-methylguaiacol.csv
+
+    -   compiled results.xlsx
+
+    -   functions.R
+
+    -   thesis.html
+
+    -   thesis.qmd
+
+-   ref.work
+
+    -   lab3
+
+        -   hiphop.csv
+
+        -   lab3_midterm.html
+
+        -   lab3_midterm.qmd
+
+    -   lab4
+
+        -   avocado.csv
+
+        -   housing.csv
+
+        -   lab4_challenge.html
+
+        -   lab4_challenge.qmd
+
+        -   lab4_midterm.html
+
+        -   lab4_midterm.qmd
+
+    -   lab5
+
+        -   lab5_midterm.html
+
+        -   lab5_midterm.qmd
+
+        -   surveys.csv
+
+    -   lab7
+
+        -   blackfootfish.csv
+
+        -   lab7.html
+
+        -   lab7.qmd
+
+    -   lab8
+
+        -   lab8.html
+
+        -   lab8.qmd
+
+    -   lab9
+
+        -   lab_challenge.html
+
+        -   lab9_challenge.qmd
+
+        -   lab9.html
+
+        -   lab9.qmd
+
+        -   StateNames_A.csv
+
+    -   PA3
+
+        -   PA3.html
+
+        -   PA3.qmd
+
+    -   PA9
+
+        -   mystery_animal.csv
+
+        -   PA9.html
+
+        -   PA9.qmd
 
 ### Demonstration of Learning Targets
 
