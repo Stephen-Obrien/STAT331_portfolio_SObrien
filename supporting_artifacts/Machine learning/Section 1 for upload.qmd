@@ -15,7 +15,7 @@ editor: visual
 -   also known as
 
     1.  predictors
-    2.  covariates
+    2.  co-variates
 
 **Outcome (Y)**: the categorical or continuous variables we are trying to predict
 
