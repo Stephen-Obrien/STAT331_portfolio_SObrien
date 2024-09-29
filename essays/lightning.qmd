@@ -8,7 +8,7 @@ editor: visual
 
 -   **Lightning round**: Answer each of the following questions with **one sentence** including a brief explanation.
 
-    -   Finish the sentence with another student\'s name: \"If \[Student\] doesn\'t earn an A, then nobody should, because...\" Explain your choice and your reasoning.
+    -   Finish the sentence with another student's name: "If \[Student\] doesn't earn an A, then nobody should, because..." Explain your choice and your reasoning.
 
         -   Harshini
 

@@ -1,0 +1,73 @@
+---
+title: "Section 1 for upload"
+format: html
+editor: visual
+---
+
+## 1 : introduction to machine learning
+
+## 1.1 introduction to machine learning
+
+### Notation
+
+**Features (X**~p~): variables used to predict outcomes
+
+-   also known as
+
+    1.  predictors
+    2.  covariates
+
+**Outcome (Y)**: the categorical or continuous variables we are trying to predict
+
+**Algorithms:** Takes features as inputs and predicts outcomes when we don't know the outcome.
+
+Machine learning programs train algorithms using known outcomes and features to predict unknown outcomes.
+
+**2 types of prediction algorithms**
+
+1.  continuous
+2.  categorical
+    -   can be any of K variables
+
+        -   K categories are indicated with indices (1, 2, 3..., k)
+
+        -   for binary data k = 0 or 1
+
+**Example:**
+
+outcome Y with 5 features (X~1~, ..., X~5~)
+
+-   **Prediction**: when the output is continuous we refer to the machine learning task as continuous.
+
+    -   A functions is the main output of the model
+
+        $$
+        y=f(x1,x2,…,xp)
+        $$
+
+    -   We want Y hat (predicted) to match y actual (the observed outcome).
+
+    -   **error =** y - Yhat
+
+-   **Classification**: when the output is categorical the machine learning task is categorical.
+
+    -   the output is a decision rule which will determine which of th K classes we should predict.
+
+    -   $$
+        f1(x1,x2,…,xp)>C -> category 1
+        $$
+
+        -   and category 0 for \<\_
+
+### Zip code reader example:
+
+**Purpose:** Build a algorithm that can read a digit.
+
+Steps to building an algorithm:
+
+1.  Understand the Outcome and Features.
+    -   For the zip code reader a set of digits read by a human and assigned an outcome Y is use
+
+        -   this is known as a **Training Set**
+
+        -   **Y** is the assigned outcome by the human.
